@@ -1,0 +1,35 @@
+PODS:
+  - RxCocoa (5.1.1):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxFlow (2.9.1):
+    - RxCocoa (>= 5.1.1)
+    - RxSwift (>= 5.1.1)
+  - RxRelay (5.1.1):
+    - RxSwift (~> 5)
+  - RxSwift (5.1.1)
+  - SnapKit (5.0.1)
+
+DEPENDENCIES:
+  - RxFlow
+  - RxSwift
+  - SnapKit
+
+SPEC REPOS:
+  trunk:
+    - RxCocoa
+    - RxFlow
+    - RxRelay
+    - RxSwift
+    - SnapKit
+
+SPEC CHECKSUMS:
+  RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
+  RxFlow: 029e260333ef843b349ba9cb9265929941830aee
+  RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
+  RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+
+PODFILE CHECKSUM: c74812c1f79e81c57fc81d2a2ab1a44dfe0cc906
+
+COCOAPODS: 1.9.1
