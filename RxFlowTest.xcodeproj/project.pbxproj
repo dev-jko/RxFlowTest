@@ -22,8 +22,14 @@
 		08C31E80250CCBFB00C39E93 /* OnboardingFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C31E7F250CCBFB00C39E93 /* OnboardingFlow.swift */; };
 		08C31E82250CCEFB00C39E93 /* SettingsLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C31E81250CCEFB00C39E93 /* SettingsLoginViewController.swift */; };
 		08C31E84250CE2B600C39E93 /* MovieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C31E83250CE2B600C39E93 /* MovieDetailViewController.swift */; };
+		08C31E8C250E5D8100C39E93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C31E8B250E5D8100C39E93 /* AppDelegate.swift */; };
+		08C31E90250E5D8100C39E93 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C31E8F250E5D8100C39E93 /* ViewController.swift */; };
+		08C31E95250E5D8200C39E93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08C31E94250E5D8200C39E93 /* Assets.xcassets */; };
+		08C31E98250E5D8200C39E93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08C31E96250E5D8200C39E93 /* LaunchScreen.storyboard */; };
+		08C31E9F250E5F4200C39E93 /* AppStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C31E9E250E5F4200C39E93 /* AppStep.swift */; };
 		4CEC7C9CD0F07C78F6AE6C9A /* Pods_RxFlowTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 348BA31BAA419C49BF32DDCE /* Pods_RxFlowTest.framework */; };
 		6DC17F646E8F4F6427EA54E9 /* Pods_RxFlowTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEAA2B48665479DD277C43F4 /* Pods_RxFlowTestTests.framework */; };
+		E1EF7E27480B3FDBD2A9562F /* Pods_RxFlowApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72E161C94CB914E78AF88F37 /* Pods_RxFlowApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,9 +62,19 @@
 		08C31E7F250CCBFB00C39E93 /* OnboardingFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingFlow.swift; sourceTree = "<group>"; };
 		08C31E81250CCEFB00C39E93 /* SettingsLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsLoginViewController.swift; sourceTree = "<group>"; };
 		08C31E83250CE2B600C39E93 /* MovieDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailViewController.swift; sourceTree = "<group>"; };
+		08C31E89250E5D8100C39E93 /* RxFlowApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxFlowApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		08C31E8B250E5D8100C39E93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		08C31E8F250E5D8100C39E93 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		08C31E94250E5D8200C39E93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		08C31E97250E5D8200C39E93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		08C31E99250E5D8200C39E93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08C31E9E250E5F4200C39E93 /* AppStep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStep.swift; sourceTree = "<group>"; };
 		094CB87C5E6CE970778F3C2A /* Pods-RxFlowTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxFlowTestTests.release.xcconfig"; path = "Target Support Files/Pods-RxFlowTestTests/Pods-RxFlowTestTests.release.xcconfig"; sourceTree = "<group>"; };
 		348BA31BAA419C49BF32DDCE /* Pods_RxFlowTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxFlowTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6436F2BE83B90E11EE8252FD /* Pods-RxFlowApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxFlowApp.debug.xcconfig"; path = "Target Support Files/Pods-RxFlowApp/Pods-RxFlowApp.debug.xcconfig"; sourceTree = "<group>"; };
+		72E161C94CB914E78AF88F37 /* Pods_RxFlowApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxFlowApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEAA2B48665479DD277C43F4 /* Pods_RxFlowTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxFlowTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C70CE1BED857051B43BCE459 /* Pods-RxFlowApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxFlowApp.release.xcconfig"; path = "Target Support Files/Pods-RxFlowApp/Pods-RxFlowApp.release.xcconfig"; sourceTree = "<group>"; };
 		D594483D97655F205BC5FA08 /* Pods-RxFlowTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxFlowTest.release.xcconfig"; path = "Target Support Files/Pods-RxFlowTest/Pods-RxFlowTest.release.xcconfig"; sourceTree = "<group>"; };
 		E5F6161FD3730217D5D9AE7E /* Pods-RxFlowTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxFlowTestTests.debug.xcconfig"; path = "Target Support Files/Pods-RxFlowTestTests/Pods-RxFlowTestTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F46B1D2FCC2EB9C80804405A /* Pods-RxFlowTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxFlowTest.debug.xcconfig"; path = "Target Support Files/Pods-RxFlowTest/Pods-RxFlowTest.debug.xcconfig"; sourceTree = "<group>"; };
@@ -81,6 +97,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		08C31E86250E5D8100C39E93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1EF7E27480B3FDBD2A9562F /* Pods_RxFlowApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -89,6 +113,7 @@
 			children = (
 				08B61809250B24C3000B6AA0 /* RxFlowTest */,
 				08B61820250B24C5000B6AA0 /* RxFlowTestTests */,
+				08C31E8A250E5D8100C39E93 /* RxFlowApp */,
 				08B61808250B24C3000B6AA0 /* Products */,
 				E16895345B6E37EA16D5FFC0 /* Pods */,
 				0D6FAE8EB4A66E12B7439E83 /* Frameworks */,
@@ -100,6 +125,7 @@
 			children = (
 				08B61807250B24C3000B6AA0 /* RxFlowTest.app */,
 				08B6181D250B24C5000B6AA0 /* RxFlowTestTests.xctest */,
+				08C31E89250E5D8100C39E93 /* RxFlowApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -167,11 +193,25 @@
 			path = Services;
 			sourceTree = "<group>";
 		};
+		08C31E8A250E5D8100C39E93 /* RxFlowApp */ = {
+			isa = PBXGroup;
+			children = (
+				08C31E8B250E5D8100C39E93 /* AppDelegate.swift */,
+				08C31E8F250E5D8100C39E93 /* ViewController.swift */,
+				08C31E9E250E5F4200C39E93 /* AppStep.swift */,
+				08C31E94250E5D8200C39E93 /* Assets.xcassets */,
+				08C31E96250E5D8200C39E93 /* LaunchScreen.storyboard */,
+				08C31E99250E5D8200C39E93 /* Info.plist */,
+			);
+			path = RxFlowApp;
+			sourceTree = "<group>";
+		};
 		0D6FAE8EB4A66E12B7439E83 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				348BA31BAA419C49BF32DDCE /* Pods_RxFlowTest.framework */,
 				AEAA2B48665479DD277C43F4 /* Pods_RxFlowTestTests.framework */,
+				72E161C94CB914E78AF88F37 /* Pods_RxFlowApp.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -183,6 +223,8 @@
 				D594483D97655F205BC5FA08 /* Pods-RxFlowTest.release.xcconfig */,
 				E5F6161FD3730217D5D9AE7E /* Pods-RxFlowTestTests.debug.xcconfig */,
 				094CB87C5E6CE970778F3C2A /* Pods-RxFlowTestTests.release.xcconfig */,
+				6436F2BE83B90E11EE8252FD /* Pods-RxFlowApp.debug.xcconfig */,
+				C70CE1BED857051B43BCE459 /* Pods-RxFlowApp.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -228,6 +270,25 @@
 			productReference = 08B6181D250B24C5000B6AA0 /* RxFlowTestTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		08C31E88250E5D8100C39E93 /* RxFlowApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08C31E9A250E5D8200C39E93 /* Build configuration list for PBXNativeTarget "RxFlowApp" */;
+			buildPhases = (
+				3FB2EE0BBFFF45CE85CCEE1A /* [CP] Check Pods Manifest.lock */,
+				08C31E85250E5D8100C39E93 /* Sources */,
+				08C31E86250E5D8100C39E93 /* Frameworks */,
+				08C31E87250E5D8100C39E93 /* Resources */,
+				5E5AF115B9D3E9C9AEB87CDD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RxFlowApp;
+			productName = RxFlowApp;
+			productReference = 08C31E89250E5D8100C39E93 /* RxFlowApp.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -244,6 +305,9 @@
 					08B6181C250B24C5000B6AA0 = {
 						CreatedOnToolsVersion = 11.7;
 						TestTargetID = 08B61806250B24C3000B6AA0;
+					};
+					08C31E88250E5D8100C39E93 = {
+						CreatedOnToolsVersion = 11.7;
 					};
 				};
 			};
@@ -262,6 +326,7 @@
 			targets = (
 				08B61806250B24C3000B6AA0 /* RxFlowTest */,
 				08B6181C250B24C5000B6AA0 /* RxFlowTestTests */,
+				08C31E88250E5D8100C39E93 /* RxFlowApp */,
 			);
 		};
 /* End PBXProject section */
@@ -283,9 +348,57 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		08C31E87250E5D8100C39E93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08C31E98250E5D8200C39E93 /* LaunchScreen.storyboard in Resources */,
+				08C31E95250E5D8200C39E93 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		3FB2EE0BBFFF45CE85CCEE1A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RxFlowApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E5AF115B9D3E9C9AEB87CDD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RxFlowApp/Pods-RxFlowApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RxFlowApp/Pods-RxFlowApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RxFlowApp/Pods-RxFlowApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		72D85E8947C1B683354183DB /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -377,6 +490,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		08C31E85250E5D8100C39E93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08C31E90250E5D8100C39E93 /* ViewController.swift in Sources */,
+				08C31E9F250E5F4200C39E93 /* AppStep.swift in Sources */,
+				08C31E8C250E5D8100C39E93 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -392,6 +515,14 @@
 			isa = PBXVariantGroup;
 			children = (
 				08B61816250B24C4000B6AA0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		08C31E96250E5D8200C39E93 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08C31E97250E5D8200C39E93 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -597,6 +728,44 @@
 			};
 			name = Release;
 		};
+		08C31E9B250E5D8200C39E93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6436F2BE83B90E11EE8252FD /* Pods-RxFlowApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P6Y6LBX995;
+				INFOPLIST_FILE = RxFlowApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jko.RxFlowApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		08C31E9C250E5D8200C39E93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C70CE1BED857051B43BCE459 /* Pods-RxFlowApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P6Y6LBX995;
+				INFOPLIST_FILE = RxFlowApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jko.RxFlowApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -623,6 +792,15 @@
 			buildConfigurations = (
 				08B6182A250B24C5000B6AA0 /* Debug */,
 				08B6182B250B24C5000B6AA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08C31E9A250E5D8200C39E93 /* Build configuration list for PBXNativeTarget "RxFlowApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08C31E9B250E5D8200C39E93 /* Debug */,
+				08C31E9C250E5D8200C39E93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
